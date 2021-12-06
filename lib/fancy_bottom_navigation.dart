@@ -35,7 +35,7 @@ class FancyBottomNavigation extends StatefulWidget {
   final Color? barBackgroundColor;
   final List<TabData> tabs;
   final int initialSelection;
-  final TextStyle customTitleStyle;
+  final TextStyle? customTitleStyle;
 
   final Key? key;
 
