@@ -22,6 +22,7 @@ class FancyBottomNavigation extends StatefulWidget {
       this.activeIconColor,
       this.inactiveIconColor,
       this.textColor,
+      this.customTitleStyle,
       this.barBackgroundColor})
       : assert(onTabChangedListener != null),
         assert(tabs != null),
